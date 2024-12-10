@@ -1,0 +1,185 @@
+.navbar {
+    background-color: rgb(240, 141, 105);
+    padding: 10px;
+}
+
+.navbar-container {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 150;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+     text-decoration: none;
+     color: black;
+     
+}
+
+.nav-links a:visited {
+    color: orange;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.5 rem;
+    cursor: pointer;
+}
+
+.nav-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.5 rem;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .logo img {
+        width: 150;
+        height: auto;
+    }
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-toggle:focus+.nav-links,.nav-links:hover {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+#container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#text {
+    
+}
+
+h2 {
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0;
+}
+
+p {
+   font-size: 10px;
+   margin: 0;
+}
+
+#makanan {
+    width: 80%;
+    margin: 100px auto;
+}
+
+#makanan-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:10px
+}
+
+.box {
+    width: 25%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    margin: 5px;
+}
+ 
+
+h3 {
+    font-size: 24px;
+    padding: 0;
+    margin: 5px;
+}
+
+#opi {
+    width: 90%;
+    margin: auto;
+    background-color: rgb(123, 69, 50);
+    color:white;
+}
+@media (max-width: 600px) {
+    #container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #container h2 {
+            align-items: center;
+            justify-content:space-between;
+            padding: 10px;
+            font-size: 20px;
+            margin: 0;
+        
+    }
+    #container img {
+        width: 500px;
+    }
+    #makanan-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap:10px
+    }
+    .box {
+        width: 25%;
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 10px;
+        background-color:whitesmoke;
+        margin: 5px;
+    }
+
+
+}
